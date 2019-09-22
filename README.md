@@ -21,6 +21,17 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 Builds the app for production to the `build` folder.<br>
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
+## Display
+
+<p align="center">
+  <img src="./src/assets/images/Screen Shot 2019-09-22 at 8.12.37 PM.png" width="40%" alt="preview"/>
+  <img src="./src/assets/images/Screen Shot 2019-09-22 at 8.13.04 PM.png" width="40%" alt="preview"/>
+</p>
+
+<p align="center">
+  <img src="./src/assets/images/Screen Shot 2019-09-22 at 8.16.45 PM.png" width="40%" alt="preview"/>
+</p>
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
