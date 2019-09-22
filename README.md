@@ -29,7 +29,6 @@ It correctly bundles React in production mode and optimizes the build for the be
   <img src="./src/assets/images/Screen Shot 2019-09-22 at 8.13.04 PM.png" width="45%" alt="preview"/>
 </p>
 
-<br>
 
 ## Learn More
 
