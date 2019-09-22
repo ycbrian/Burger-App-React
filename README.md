@@ -14,10 +14,10 @@ Several features are taken advantage of developing this project. The main stack 
 
 ## Using 
 
-`npm start`
+`npm start`<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-`npm run build`
+`npm run build`<br>
 Builds the app for production to the `build` folder.<br>
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
