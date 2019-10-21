@@ -11,5 +11,6 @@ export {
 export {
     auth,
     logout,
-    AuthRedirPath 
+    AuthRedirPath,
+    authCheckState
 } from './auth'
