@@ -11,6 +11,7 @@ Several features are taken advantage of developing this project. The main stack 
 - Using axios promise API to make http requests and interact with the server.
 - Create a single page application with multi-page feeling by react-router features.
 - Implementing local and global error-handling.
+- Authentication and Testing
 
 ## Using 
 
