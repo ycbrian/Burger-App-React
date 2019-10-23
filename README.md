@@ -5,13 +5,15 @@
 This is a burger ordering service, you can build your own customized burger and post your order to the server.
 Several features are taken advantage of developing this project. The main stack was React and Redux.
 
+[Click me to website](https://react-my-burger-35710.firebaseapp.com/)
+
 ## Development
 - This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 - The server side was built on a online mobile platform firebase.
 - Using axios promise API to make http requests and interact with the server.
 - Create a single page application with multi-page feeling by react-router features.
 - Implementing local and global error-handling.
-- Authentication and Testing
+- User authentication and unit testing
 
 ## Using 
 
