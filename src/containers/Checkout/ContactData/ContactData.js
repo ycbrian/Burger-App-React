@@ -7,6 +7,7 @@ import Spinner from '../../../components/UI/Spinner/Spinner';
 import Input from '../../../components/UI/Input/Input';
 import withErrorHandler from '../../../hoc/withErrorHandler/withErrorHandler';
 import * as actions from '../../../store/actions/index';
+import {checkValidity} from '../../../shared/validation';
 
 class ContactData extends Component {
     state = {
@@ -112,24 +113,6 @@ class ContactData extends Component {
         
     }
 
-    checkValidity(value, rules) {
-
-        let isValid = true;
-
-        if (rules.required) {
-            isValid = value.trim() !== '' && isValid;
-        }
-
-        if (rules.minLength) {
-            isValid = value.length >= rules.minLength && isValid;
-        }
-
-        if (rules.maxLength) {
-            isValid = value.length <= rules.maxLength && isValid;
-        }
-        return isValid;
-    }
-
     inputChange = (event, inputIdentifier) => {
         const updatedOrder = {
             ...this.state.orderForm
@@ -140,7 +123,7 @@ class ContactData extends Component {
         }
 
         updatedele.value = event.target.value;
-        updatedele.valid = this.checkValidity(updatedele.value, updatedele.validation);
+        updatedele.valid = checkValidity(updatedele.value, updatedele.validation);
         updatedele.touched = true;
         updatedOrder[inputIdentifier] = updatedele;
 
