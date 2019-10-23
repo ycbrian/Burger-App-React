@@ -27,7 +27,7 @@ export const Burger = (orderData, token) => {
         dispatch(BurgerStart());
         axios.post('/orders.json?auth=' + token, orderData)
             .then(response => {
-                console.log(response.data);
+                // console.log(response.data);
                 dispatch(BurgerSuc(response.data.name, orderData));
             })
             .catch(error => {
