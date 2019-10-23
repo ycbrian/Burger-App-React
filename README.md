@@ -5,7 +5,7 @@
 This is a burger ordering service, you can build your own customized burger and post your order to the server.
 Several features are taken advantage of developing this project. The main stack was React and Redux.
 
-[Click me to website](https://react-my-burger-35710.firebaseapp.com/)
+[Click me to Burger-Builder website](https://react-my-burger-35710.firebaseapp.com/)
 
 ## Development
 - This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
