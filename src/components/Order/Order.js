@@ -18,8 +18,8 @@ const order = (props) => {
         return <span 
             style={{
                 textTransform: 'capitalize',
-                dispaly:'inline-block',
-                margin:' 0 8px',
+                display:'inline-block',
+                margin:' 5px 8px',
                 border: '1px solid #ccc', 
                 padding: '5px'
             }}
